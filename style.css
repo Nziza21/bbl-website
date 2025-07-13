@@ -33,7 +33,7 @@ body {
 #landing {
   position: relative;
   height: 100vh;
-  background: url('pictures/WhatsApp Image 2025-07-13 at 22.17.19 (1).jpeg') no-repeat center center/cover;
+  background: url('pictures/WhatsApp Image 2025-07-13 at 23.32.31.jpeg') no-repeat center center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -307,75 +307,31 @@ body {
 
 
 /* --- Contact Section --- */
-.contact-section {
-  background: #dff0d8;
-  border-radius: 16px;
-  padding: 50px 40px;
-  box-shadow: 0 4px 12px rgba(72, 161, 77, 0.3);
+/* Contact Section Styling */
+#contact {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
   text-align: center;
-  margin-bottom: 3rem;
 }
 
-.contact-section h2 {
-  color: #2f5d23;
-  margin-bottom: 1rem;
-  font-weight: 700;
+#contact h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
 }
 
-.contact-section p {
-  font-size: 1.15rem;
-  margin-bottom: 1rem;
-  color: #3a5a2a;
+#contact p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #666;
 }
 
-.contact-section form {
-  max-width: 480px;
-  margin: 0 auto;
-  text-align: left;
-}
-
-.contact-section label {
-  display: block;
-  margin-bottom: 0.3rem;
-  font-weight: 600;
-  color: #2f5d23;
-}
-
-.contact-section input[type="text"],
-.contact-section input[type="email"],
-.contact-section textarea {
-  width: 100%;
-  padding: 0.7rem 1rem;
-  margin-bottom: 1.3rem;
-  border: 1.8px solid #48a14d;
-  border-radius: 8px;
-  font-size: 1rem;
-  resize: vertical;
-  transition: border-color 0.3s ease;
-}
-
-.contact-section input[type="text"]:focus,
-.contact-section input[type="email"]:focus,
-.contact-section textarea:focus {
-  outline: none;
-  border-color: #2f5d23;
-}
-
-.contact-section button {
-  background: #48a14d;
-  color: #fff;
-  font-weight: 700;
+#contact iframe {
   border: none;
-  padding: 0.75rem 1.8rem;
-  font-size: 1.1rem;
   border-radius: 10px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.contact-section button:hover {
-  background: #2f5d23;
-}
 
 /* Responsive tweaks */
 @media (max-width: 900px) {
