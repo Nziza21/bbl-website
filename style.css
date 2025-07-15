@@ -1,4 +1,3 @@
-/* Base Reset */
 * {
   margin: 0;
   padding: 0;
@@ -13,14 +12,13 @@ body {
   scroll-behavior: smooth;
 }
 
-/* Container for sections */
 .container {
   max-width: 1000px;
   margin: 0 auto;
   padding: 3rem 1.5rem;
 }
 
-/* Sections styling */
+
 .section {
   width: 100%;
   clear: both;
@@ -29,7 +27,6 @@ body {
 }
 
 
-/* Landing Page */
 #landing {
   position: relative;
   height: 100vh;
@@ -87,7 +84,7 @@ body {
   flex-wrap: wrap;
 }
 
-/* Content with image or video layout */
+
 .content-with-image, .content-with-video {
   display: flex;
   gap: 3rem;
@@ -96,12 +93,11 @@ body {
   margin-top: 1rem;
 }
 
-/* Reverse layout for sections */
+
 .content-with-image.reverse {
   flex-direction: row-reverse;
 }
 
-/* Text block */
 .text-block {
   flex: 1 1 400px;
   font-size: 1.15rem;
@@ -109,7 +105,6 @@ body {
   line-height: 1.5;
 }
 
-/* Image block */
 .image-block {
   flex: 1 1 400px;
   display: flex;
@@ -124,7 +119,6 @@ body {
   height: 300px;
 }
 
-/* Video block */
 .video-block {
   flex: 1 1 560px;
   display: flex;
@@ -139,7 +133,6 @@ body {
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
 }
 
-/* E-LAB Challenges  */
 #challenges h2 {
   color: #114b28;
   margin-bottom: 1.5rem;
@@ -203,7 +196,6 @@ body {
   height: 180px;
 }
 
-/* Team Section */
 #team h2 {
   color: #1a3d12;
   margin-bottom: 2rem;
@@ -264,8 +256,6 @@ body {
   line-height: 1.3;
 }
 
-/* Gallery Section */
-
 #gallery h2 {
   color: #1a3d12;
   margin-bottom: 1.8rem;
@@ -305,8 +295,6 @@ body {
 }
 
 
-
-/* Contact Us Section */
 #contact {
   background-color: #f9f9f9;
   padding: 60px 20px;
@@ -332,7 +320,6 @@ body {
 }
 
 
-/* Responsive designs */
 @media (max-width: 900px) {
   .content-with-image,
   .content-with-video {
